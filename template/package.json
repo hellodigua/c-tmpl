@@ -10,12 +10,10 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "dependencies": {
-    "vue": "^2.4.4"{{#element-ui}},
-    "element-ui": "^2.0.1"
-    {{/element-ui}}
-  },
   "devDependencies": {
+    "vue": "^2.5.2"{{#element-ui}},
+    "element-ui": "^2.0.1",
+    {{/element-ui}}
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-eslint": "^8.0.1",
