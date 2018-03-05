@@ -19,11 +19,6 @@ module.exports = {
       "type": "confirm",
       "message": "Use sass?",
       "default": false
-    },
-    "element-ui": {
-      "type": "confirm",
-      "message": "Use element-ui?",
-      "default": false
     }
   },
   "helpers": {
